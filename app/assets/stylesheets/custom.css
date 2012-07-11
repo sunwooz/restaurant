@@ -24,7 +24,7 @@ p {
 body {
 	margin:0px;
 	padding:0;
-	background:url('foodwine.jpeg');
+	background-image:url('foodwine.jpeg');
 	text-align:center;
 }
 #submitbeta {
