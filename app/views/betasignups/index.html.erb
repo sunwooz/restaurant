@@ -1,0 +1,23 @@
+<h1>Listing betasignups</h1>
+
+<table>
+  <tr>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @betasignups.each do |betasignup| %>
+  <tr>
+    <td><%= betasignup.email %></td>
+    <td><%= link_to 'Show', betasignup %></td>
+    <td><%= link_to 'Edit', edit_betasignup_path(betasignup) %></td>
+    <td><%= link_to 'Destroy', betasignup, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Betasignup', new_betasignup_path %>
