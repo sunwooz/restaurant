@@ -1,0 +1,36 @@
+#navbar ul li {
+	list-style-type:none;
+	display:inline;
+}
+#navbar ul {
+	padding:30px;
+}
+#navbar h1 {
+	padding:30px;
+	font-family: 'Simonetta', cursive;
+	text-align:center;
+}
+p {
+	font-family: 'Simonetta', cursive;
+	font-size:25px;
+	line-height:100%;
+	padding-left:25px;
+	padding-right: 25px;
+	text-align:center;
+}
+.container {
+	padding:30px;
+}
+body {
+	margin:0px;
+	padding:0;
+	background:url('foodwine.jpeg');
+	text-align:center;
+}
+#submitbeta {
+	position:relative;
+	top:-5px;
+}
+.field {
+	text-align:center;
+}

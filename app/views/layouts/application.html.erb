@@ -3,12 +3,18 @@
 <head>
   <title>Restaurant</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "custom"     , :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Simonetta:400,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
-<%= yield %>
-
+	<div id="navbar">
+		<h1>FORKIT</h1>
+		<p>Easily Design and Manage a beautiful restaurant website for $15/month</p>
+	</div>
+	<div class="container">
+		<%= yield %>
+	</div>
 </body>
 </html>
