@@ -22,9 +22,9 @@ p {
 	padding:30px;
 }
 body {
-	margin:0px;
+	margin:0;
 	padding:0;
-	background: #777 url('/images/foodwine.png') center fixed;
+	background: #777 url('foodwine.png') center fixed;
 	background-repeat:no-repeat;	
 	text-align:center;
 }
