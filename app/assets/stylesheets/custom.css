@@ -24,7 +24,8 @@ p {
 body {
     margin:0;
     padding:0;
-    background: #777 url(foodwine.png) no-repeat center fixed;
+    background: #777 url('foodwine.png') center fixed;
+    background-repeat:no-repeat;    
     text-align:center;
 }
 #submitbeta {
