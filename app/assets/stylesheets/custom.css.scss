@@ -1,15 +1,15 @@
-
-#navbar ul li {
-	list-style-type:none;
-	display:inline;
-}
-#navbar ul {
-	padding:30px;
-}
-#navbar h1 {
-	padding:30px;
-	font-family: 'Simonetta', cursive;
-	text-align:center;
+#navbar {
+	ul {
+		li {
+			
+		}
+	}
+	h1 {
+		font-family: 'Simonetta', cursive;
+		margin-top:40px;
+		font-size:40px;
+		color:#B6423E;
+	}
 }
 p {
 	font-family: 'Simonetta', cursive;
@@ -18,9 +18,10 @@ p {
 	padding-left:25px;
 	padding-right: 25px;
 	text-align:center;
-}
-p#uvp {
-	color:#D6E9B4;
+	
+	#uvp {
+		color:#D6E9B4;
+	}
 }
 .container {
 	padding:30px;
@@ -43,7 +44,4 @@ body {
 #betasignup_email {
 	padding:13px;
 }
-#logo {
-	font-size:40px;
-	color:#4F5642;
-}
+
