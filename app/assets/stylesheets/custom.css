@@ -1,3 +1,4 @@
+
 #navbar ul li {
 	list-style-type:none;
 	display:inline;
@@ -18,6 +19,9 @@ p {
 	padding-right: 25px;
 	text-align:center;
 }
+p#uvp {
+	color:#D6E9B4;
+}
 .container {
 	padding:30px;
 }
@@ -27,6 +31,7 @@ body {
     background: #777 url('foodwine.png') center fixed;
     background-repeat:no-repeat;    
     text-align:center;
+	color:#D6E9B4;
 }
 #submitbeta {
 	position:relative;
@@ -37,4 +42,8 @@ body {
 }
 #betasignup_email {
 	padding:13px;
+}
+#logo {
+	font-size:40px;
+	color:#4F5642;
 }
