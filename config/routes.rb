@@ -1,4 +1,6 @@
 Restaurant::Application.routes.draw do
+  resources :posts
+
   resources :betasignups
   
   root :to => 'betasignups#new'

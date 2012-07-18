@@ -7,11 +7,15 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Simonetta:400,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id="navbar">
-		<h1 id="logo">MENUTASTIC</h1><br/>
-		<p id="uvp">Attract customers to your restaurant with a beautiful and functional website.</p>
+		<h1 id="logo">SugarCider</h1><br/>
+		<ul>
+			<li><%= link_to 'Blog', posts_path %></li>
+			<li><%= link_to 'Our Product', '/' %>
+		</ul>
 	</div>
 	<div class="container">
 		<%= yield %>

@@ -1,15 +1,23 @@
 #navbar {
-	ul {
-		li {
-			
-		}
-	}
 	h1 {
-		font-family: 'Simonetta', cursive;
+		font-family: 'The Girl Next Door', cursive;
 		margin-top:40px;
 		font-size:40px;
-		color:#B6423E;
+		color:#A8FF45;
 	}
+}
+#navbar ul li {
+	display:inline;
+	padding:5px;
+}
+#navbar ul li a {
+	color:black;
+}
+#navbar ul li a:hover {
+	background-color:#B6423E;
+}
+ul li {
+	list-style-type:none;
 }
 p {
 	font-family: 'Simonetta', cursive;
@@ -20,7 +28,7 @@ p {
 	text-align:center;
 	
 	#uvp {
-		color:#D6E9B4;
+		color:#FF8C6D;
 	}
 }
 .container {
@@ -29,8 +37,12 @@ p {
 body {
     margin:0;
     padding:0;
-    background: #777 url('foodwine.png') center fixed;
+    background: url('foodwine.png') center fixed;
     background-repeat:no-repeat;    
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     text-align:center;
 	color:#D6E9B4;
 }
@@ -44,4 +56,3 @@ body {
 #betasignup_email {
 	padding:13px;
 }
-
